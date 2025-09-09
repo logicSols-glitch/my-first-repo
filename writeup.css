@@ -1,0 +1,170 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+JP:wght@200;300;400&family=Noto+Sans+Nandinagari&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500&family=Quicksand:wght@300;400;500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+JP:wght@200;300;400&family=Noto+Sans+Nandinagari&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500&family=Quicksand:wght@300;400;500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+.links{
+  /* display: none; */
+}
+
+@media(max-width :720px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .tomisin{
+    margin-left: -4%;
+    border-left: 0;
+    border-right: 0;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    display: flex;
+    width: 100vw;
+  }
+  .misin{
+    /* margin: 4%; */
+    margin-top: 5%;
+    margin-left: 2%;
+    display: block; 
+  }
+  .misin a{
+    margin: 1%;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .comp{
+    background-color: rgb(77, 72, 72);
+    margin-top: 0%;
+    margin-bottom: 15%;
+    padding: 5%;
+    color: red;
+  }
+  #writeup{
+    margin-top: -15%;
+    overflow: hidden;
+  }
+  .writeup{
+    margin-top: -15%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .bobby img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .club{
+    margin-left: 5%;
+    margin-top: -4%;
+    margin-bottom: 5%;
+  }
+  .club p{
+      font-weight: 800;
+      margin-bottom: 1%;
+  }
+    .club span{
+      color: rgb(214, 203, 188);
+        font-size: 2em;
+  }
+    #speak{
+      margin-top: 0%;
+      width: 95%;
+      margin-bottom: 5%;
+  }
+    #speak h4{
+      font-size: 1.2em;
+  }
+  .speak{
+    width: 100%;
+    margin: 2%;
+    /* margin-top: -55%; */
+    /* background-color: whitesmoke; */
+  }
+  .speak h4{
+    color: rgb(121, 123, 124);
+    margin: 2%;
+    margin-bottom: 10%;
+    /* width: 100%; */
+    font-weight: 800;
+    font-size: 0.8rem;
+    line-height: 1.5em;
+  }
+    .speak p{  
+      margin-bottom: 7%;
+      margin-right: 2%;
+      margin-left: 2%;
+      font-size: 1em;
+      font-weight: 500;
+      line-height: 1.5em;
+      /* margin: 2%; */
+  }
+  .tomisin img{
+    /* height: 19vh; */
+    width: 25%;
+    /* object-fit: contain; */
+  }
+    .comp h5{
+      font-family: 'Nanum Gothic', sans-serif;
+      margin-top: 5%;
+      margin-left: -4%;  
+      margin-bottom: 10%;
+      font-size: 1.5em;
+      color: white;
+  }
+  #woo{
+    width: 100%;
+    overflow: hidden;
+    /* height: 65vh; */
+  }
+}   
+@media (max-width:395px){
+  .speak{
+    font-size: 0.9rem;
+    /* color: red; */
+    margin: 2%;
+    width: 100%;
+  }
+  .bobby img{
+    width: 100%;
+    /* object-fit: cover; */
+  }
+    .club span{
+    color: rgb(214, 203, 188);
+    font-size: 1.5em;
+  }
+  .misin a{
+    margin: 1%;
+    /* width: 100%; */
+    font-size: 0.9em
+  }
+  .tomisin{
+    margin-left: -5%;
+    border-left: 0;
+    border-right: 0;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    display: flex;
+    width: 100vw;
+  }
+  .tomisin img{
+    margin-left: 1%
+  }
+} 
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+

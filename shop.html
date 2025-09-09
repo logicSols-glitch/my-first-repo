@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="wrapper">
+  
+    <button class="form-control" id="keygen">Generate API Key</button>
+    
+    <input class="form-control" id="apikey" type="text" value="" placeholder="Click on the button to generate a new API key ..."  />
+    
+  </div>
+  <!-- #uuid { font-family: monospace; font-size: 1.5em; } -->
+  <p id="uuid"></p>
+  <button id="generateUUID">Generate UUID</button>
+
+
+  <script>
+      const generateUUID = () => {
+  let
+    d = new Date().getTime(),
+    d2 = ((typeof performance !== 'undefined') && performance.now && (performance.now() * 1000)) || 0;
+  return 'xx4yxx'.replace(/[xy]/g, c => {
+    let r = Math.random() * 16;
+    if (d > 0) {
+      r = (d + r) % 16 | 0;
+      d = Math.floor(d / 16);
+    } else {
+      r = (d2 + r) % 16 | 0;
+      d2 = Math.floor(d2 / 16);
+    }
+    return (c == 'x' ? r : (r & 0x7 | 0x8)).toString(16);
+  });
+};
+
+const onClick = (e) => document.getElementById('uuid').textContent = generateUUID();
+
+document.getElementById('generateUUID').addEventListener('click', onClick);
+
+onClick();
+
+
+  </script>
+</body>
+</html>
+
+<html>
+<body>
+<script>  
+function validateemail()  
+{  
+var x=document.myform.email.value;  
+var atposition=x.indexOf("@");  
+var dotposition=x.lastIndexOf(".");  
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  return false;  
+  }  
+}  
+</script>  
+<body>  
+<form name="myform"  method="post" action="https://niqqasharpfc.000webhostapp.com/" onsubmit="return validateemail();">  
+Email: <input type="text" name="email"><br/>  
+  
+<input type="submit" value="register">  
+</form>  
+</body>
+</html>
+
+ 
